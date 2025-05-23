@@ -7,7 +7,7 @@ __pycache__/
 
 #출력물
 data/raw/*
-data/processed/*
+data/collected_from/*
 
 # 환경변수 및 비 파일
 *.env
