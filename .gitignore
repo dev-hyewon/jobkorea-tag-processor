@@ -1,0 +1,29 @@
+#가상환경 디렉토리 무시
+.venv*/
+
+#Python 파일을 실행할 때 성능을 높이기 위해 바이트코드로 변환되어 생성되는 폴더 및 파일
+__pycache__/
+*.py[cod]
+
+#출력물
+data/raw/*
+data/processed/*
+
+# 환경변수 및 비 파일
+*.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 시스템 임시 파일
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Windows 시스템 파일
+Thumbs.db
+desktop.ini
+.DS_Store  # Windows에서 Mac 파일과 혼합될 경우
